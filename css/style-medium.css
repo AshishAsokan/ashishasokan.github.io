@@ -100,7 +100,7 @@ textarea {
 }
 
 #titleBar .toggle:before {
-    background: #A31F34;
+    background: #135d99;
     color: #ffffff;
     content: '\f0c9';
     display: block;
@@ -115,6 +115,6 @@ textarea {
 }
 
 #sidePanel {
-    background: #A31F34;
+    background: #135d99;
     color: #fff;
 }
