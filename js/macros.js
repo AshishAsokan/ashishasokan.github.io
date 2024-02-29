@@ -87,6 +87,9 @@ function getPerson(id) {
     case "sss":
       clickable("Prof. Shylaja Sharath", "https://staff.pes.edu/nm1297/");
       break;
+    case "anc":
+      clickable("Prof. Anirban Chakraborty", "https://anirbanchakraborty.github.io/");
+      break;
     case "freeman_short":
       clickable("Bill Freeman", "https://billf.mit.edu/");
       break;
@@ -325,6 +328,9 @@ function getAffli(id) {
       break;
     case "gmac":
       clickable("GMAC Intelligence", "https://gi4all.com/");
+      break;
+    case "vcl":
+      clickable("Visual Computing Lab", "https://visual-computing.in/");
       break;
     case "csail":
       clickable("Computer Science and Artificial Intelligence Laboratory (CSAIL)", "http://www.csail.mit.edu");
