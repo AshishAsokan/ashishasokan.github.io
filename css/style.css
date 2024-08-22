@@ -43,7 +43,7 @@ a {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #0000FF !important;
+    color: #830000 !important;
 }
 
 a.lowkey {
@@ -51,17 +51,17 @@ a.lowkey {
 }
 
 a.lowkey:hover {
-    color: #0000FF;
+    color: #830000;
 }
 
 a.salient-blue {
     border-bottom: none;
-    color: #0000FF;
+    color: #830000;
 }
 
 a.salient-blue:hover {
     border-bottom-color: transparent;
-    color: #0000FF !important;
+    color: #830000 !important;
 }
 
 a.salient-red {
@@ -235,9 +235,9 @@ header h6+p {
     line-height: 1.5em;
 }
 
-/* color: #135d99; */
+/* color: #830000; */
 header.major h2 {
-    color: #135d99;
+    color: #830000;
     font-size: 3.5em;
 }
 
@@ -301,7 +301,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #135d99;
+    border-color: #830000;
 }
 
 .select-wrapper {
@@ -412,7 +412,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-    border-color: #135d99;
+    border-color: #830000;
 }
 
 input[type="checkbox"]+label:before {
@@ -603,9 +603,9 @@ ul.feature-icons li:before {
     text-transform: none !important;
 }
 
-/* #135d99?\ */
+/* #830000?\ */
 ul.feature-icons li:before {
-    background: #135d99;
+    background: #830000;
     border-radius: 100%;
     color: #ffffff;
     display: block;
@@ -790,7 +790,7 @@ table.alt tfoot {
 }
 
 /* Button */
-/* #135d99 */
+/* #830000 */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -808,7 +808,7 @@ input[type="button"],
     background-color: #ffffff;
     border-radius: 5px;
     border: 0;
-    color: #135d99 !important;
+    color: #830000 !important;
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
@@ -906,12 +906,12 @@ input[type="button"].alt.icon:before,
     color: #aaa;
 }
 
-/* #135d99 */
+/* #830000 */
 input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
 .button.special {
-    background-color: #135d99;
+    background-color: #830000;
     color: #ffffff !important;
 }
 
@@ -980,9 +980,9 @@ input[type="button"]:disabled,
 }
 
 /* Header */
-/* #135d99 */
+/* #830000 */
 #header {
-    background: #135d99;
+    background: #830000;
     color: #d1f1e9;
     height: 100%;
     position: fixed;
@@ -1066,7 +1066,7 @@ input[type="button"]:disabled,
 }
 
 #header>nav ul li {
-    border-top: solid 2px #A36034;
+    /* border-top: solid 2px #A36034; */
     display: block;
     padding: 0;
 }
@@ -1080,14 +1080,14 @@ input[type="button"]:disabled,
     border: 0;
     color: #ffffff !important;
     display: block;
-    padding: 0.85em 0;
+    padding: 0.4em 0;
     text-decoration: none;
 }
 
-/* #135d99 */
+/* #830000 */
 #header>nav ul li a.active {
     background: #fff;
-    color: #135d99 !important;
+    color: #830000 !important;
 }
 
 #header>nav ul li:first-child {
@@ -1118,14 +1118,62 @@ input[type="button"]:disabled,
 /* One */
 
 #one:before {
-    background-image: url("../images/banners/iisc.jpeg");
+    background-image: url("../images/banners/cmu.webp");
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
     content: '';
     display: block;
-    height: 15em;
+    height: 17em;
     width: 100%;
+}
+
+/* Education */
+.education-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.education-section h2 {
+    font-size: 15px;
+    margin-bottom: 19px;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.education-item i {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.education-item div {
+    line-height: 1.4;
+}
+
+.institution {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.degree {
+    font-size: 14px;
+    font-style: italic;
+    color: #830000;
+}
+
+.time {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.cw {
+    font-size: 14px;
+    font-style: italic;
 }
 
 
