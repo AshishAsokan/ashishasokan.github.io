@@ -1,0 +1,83 @@
+- venue: "CVPR 2024"
+  title: "Leveraging Vision-Language Models for Improving Domain Generalization in Image Classification"
+  thumb: "images/pub/CLIP-DG-Teaser.png"
+  authors: "Sravanti Addepalli*, **Ashish Asokan***, Lakshay Sharma, R. Venkatesh Babu"
+  tldr: "Distills OOD generalization from black-box VLMs such as CLIP into standard vision classifiers."
+  links:
+    - label: ArXiv
+      url: "https://arxiv.org/abs/2310.08255"
+    - label: Project
+      url: "http://val.cds.iisc.ac.in/VL2V-ADiP/"
+    - label: Code
+      url: "https://github.com/val-iisc/VL2V-ADiP"
+    - label: BibTeX
+      url: "./docs/bib/vl2v.bib"
+
+- venue: "CVPR 2024"
+  title: "DeiT-LT: Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets"
+  thumb: "images/pub/DeiT-LT.png"
+  authors: "Harsh Rangwani, Pradipto Mondal, Mayank Mishra, **Ashish Asokan**, R. Venkatesh Babu"
+  tldr: "Trains Vision Transformers from scratch on long-tailed datasets (for the first time in literature!) via distillation from CNNs."
+  links:
+    - label: Paper
+      url: "http://openaccess.thecvf.com/content/CVPR2024/html/Rangwani_DeiT-LT_Distillation_Strikes_Back_for_Vision_Transformer_Training_on_Long-Tailed_CVPR_2024_paper.html"
+    - label: Project
+      url: "https://rangwani-harsh.github.io/DeiT-LT/"
+    - label: Code
+      url: "https://github.com/val-iisc/DeiT-LT"
+    - label: BibTeX
+      url: "./docs/bib/deit-lt.bib"
+
+- venue: "ICCV 2023"
+  title: "Domain-Specificity-inducing Transformers for Source-Free Domain Adaptation"
+  thumb: "images/pub/Main Teaser.png"
+  authors: "Sunandini Sanyal*, **Ashish Asokan***, Suvaansh Bhambri*, Akshay Kulkarni, Jogendra Nath Kundu, R. Venkatesh Babu"
+  tldr: "A source-free domain adaptation framework for Vision Transformers (ViTs) that augments goal-task representations in the ViTs with domain-specific features learned via query weights for improved target adaptation."
+  links:
+    - label: ArXiv
+      url: "https://arxiv.org/abs/2308.14023"
+    - label: Project
+      url: "http://val.cds.iisc.ac.in/DSiT-SFDA"
+    - label: Code
+      url: "https://github.com/val-iisc/DSiT-SFDA"
+    - label: BibTeX
+      url: "./docs/bib/dsit.bib"
+
+- venue: "WACV 2024"
+  title: "Aligning Non-Causal Factors for Transformer-based Source-Free Domain Adaptation"
+  thumb: "images/pub/csftrans.png"
+  authors: "Sunandini Sanyal*, **Ashish Asokan***, Suvaansh Bhambri, Pradyumna YM, Akshay Kulkarni, Jogendra Nath Kundu, R. Venkatesh Babu"
+  tldr: "Aligning non-causal (spurious) factors before causal ones bridges the domain gap more effectively. Proposes a two-stage source-free adaptation framework using ViTs, whose shape bias makes them well-suited for this disentanglement."
+  links:
+    - label: ArXiv
+      url: "https://arxiv.org/abs/2311.16294v1"
+    - label: Project
+      url: "https://val.cds.iisc.ac.in/C-SFTrans/"
+    - label: Code
+      url: "https://github.com/val-iisc/C-SFTrans"
+    - label: BibTeX
+      url: "./docs/bib/csftrans.bib"
+
+- venue: "ODRUM Workshop, CVPR 2023"
+  title: "Distilling from Vision-Language Models for Improved OOD Generalization in Vision Tasks"
+  thumb: "images/pub/vl2v.png"
+  authors: "Sravanti Addepalli*, **Ashish Asokan***, Lakshay Sharma, R. Venkatesh Babu"
+  tldr: "Shows that naive distillation from VLMs fails to transfer OOD generalization, and proposes alignment as the fix."
+  links:
+    - label: ArXiv
+      url: "https://arxiv.org/pdf/2310.08255"
+    - label: Code
+      url: "https://github.com/val-iisc/VL2V-ADiP"
+    - label: BibTeX
+      url: "./docs/bib/vl2v.bib"
+
+- venue: "WCCI IJCNN 2022"
+  title: "Interpretability for Multimodal Emotion Recognition using Concept Activation Vectors"
+  thumb: "images/pub/imer.png"
+  authors: "**Ashish Asokan**, K. Nidarshan, Anirudh V Ragam, Shylaja S S"
+  tldr: "Defines human-understandable concepts for Multimodal Emotion Recognition and uses Concept Activation Vectors to show that a BC-LSTM's reasoning can be expressed in terms of these concepts."
+  links:
+    - label: ArXiv
+      url: "https://arxiv.org/abs/2202.01072"
+    - label: BibTeX
+      url: "./docs/bib/imer.bib"

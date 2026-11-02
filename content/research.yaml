@@ -1,0 +1,47 @@
+- id: distillation
+  title: "Distillation"
+  tagline: "Transferring frontier capability into accessible models"
+  body: "State-of-the-art models offer remarkable capabilities, but their deployment is constrained by computational cost and API-only access. I study how much of a frontier model's capability can be recovered through distillation — examining the data regimes, query strategies, and training objectives that make knowledge transfer most effective."
+  links_label: "Selected work"
+  links:
+    - title: "VL2V-ADiP"
+      meta: "CVPR 2024"
+      url: "https://arxiv.org/abs/2310.08255"
+    - title: "Distilling from VLMs for OOD Generalization"
+      meta: "CVPRW 2023"
+      url: "https://arxiv.org/pdf/2310.08255"
+
+- id: diffing
+  title: "Model Diffing"
+  tagline: "Characterizing behavioral change across model versions"
+  body: "Benchmark scores provide an incomplete account of how models change across training runs or releases. I am developing systematic tools for model comparison — frameworks that surface meaningful behavioral differences, track capability shifts, and assess compatibility across a model family over time."
+  links_label: "Related prior work"
+  links:
+    - title: "StringSight"
+      meta: "Dunlap"
+      url: "https://github.com/lisadunlap/StringSight"
+    - title: "Divergent Representations in T2I Models"
+      meta: "Dunlap et al. · ICCV 2025"
+      url: "https://arxiv.org/abs/2509.08940"
+    - title: "BehaviorBox"
+      meta: "Tjuatja & Neubig"
+      url: "https://arxiv.org/abs/2506.02204"
+    - title: "MUSCLE"
+      meta: "Echterhoff et al. · EMNLP 2024"
+      url: "https://arxiv.org/abs/2407.09435"
+
+- id: distribution-shift
+  title: "Distribution Shift"
+  tagline: "Building robust models across distribution boundaries"
+  body: "Models that perform well in-distribution frequently degrade when deployed under domain shift. My prior work addresses this through transformer-based methods for source-free domain adaptation, vision-language supervision for cross-domain generalization, and training strategies for long-tail visual recognition."
+  links_label: "Selected work"
+  links:
+    - title: "DSiT-SFDA"
+      meta: "ICCV 2023"
+      url: "https://arxiv.org/abs/2308.14023"
+    - title: "C-SFTrans"
+      meta: "WACV 2024"
+      url: "https://arxiv.org/abs/2311.16294v1"
+    - title: "DeiT-LT"
+      meta: "CVPR 2024"
+      url: "http://openaccess.thecvf.com/content/CVPR2024/html/Rangwani_DeiT-LT_Distillation_Strikes_Back_for_Vision_Transformer_Training_on_Long-Tailed_CVPR_2024_paper.html"

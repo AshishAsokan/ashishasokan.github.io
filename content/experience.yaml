@@ -1,0 +1,51 @@
+- date: "Jun '26–Present"
+  current: true
+  role: "Founding Member of Technical Staff"
+  org: "Imbik AI"
+  org_url: "https://imbik.ai/"
+  description: "Working on post-training for agents."
+  tags:
+    - Post-Training
+    - LLMs
+
+- date: "Feb '26–Mar '26"
+  role: "Founding Research Intern"
+  org: "VLM Run"
+  description: "Research on agentic visual reasoning with open-source vision-language models."
+  tags:
+    - VLMs
+    - Agents
+
+- date: "Jan–May '25"
+  role: "Research Scholar"
+  org: "Carnegie Mellon University"
+  advisor: "Advisor: Fernando De la Torre · Collaborators: Raviteja Vemulapalli, Oncel Tuzel (Apple MLR)"
+  bullets:
+    - "Designed a framework for model diffing — discovering divergent behaviors between foundation models."
+    - "Used model diffing to investigate gains and regressions in LLM-as-a-judge evaluation results across model versions."
+  tags:
+    - LLMs
+    - VLMs
+    - Model Diffing
+
+- date: "May '22–Jul '24"
+  role: "Predoctoral Fellow"
+  org: "Indian Institute of Science — Vision and AI Lab"
+  advisor: "Advisor: Prof. Venkatesh Babu"
+  bullets:
+    - "Research on domain generalization and vision-language models (CVPRW '23, CVPR '24), long-tail learning (CVPR '24), domain adaptation (ICCV '23, WACV '24), and federated learning."
+    - "Led a collaboration with Boeing, Wipro, & HCL to build an airport analytics system for vehicle collision detection, aircraft classification, and activity recognition from surveillance feeds."
+    - "Supervised and mentored 3 undergraduate interns across multiple research projects."
+  tags:
+    - Distribution Shift
+    - Foundation Models
+    - Long-Tail Learning
+
+- date: "Aug–Dec '21"
+  role: "Research Intern"
+  org: "Intel Corporation"
+  description: "Research on continual learning, federated learning, and neural network pruning."
+  tags:
+    - Continual Learning
+    - Federated Learning
+    - Pruning

@@ -1,0 +1,11 @@
+- date: "Aug '24–May '25"
+  degree: "M.S. in Machine Learning"
+  school: "Carnegie Mellon University"
+  description: "Coursework: Advanced Intro to ML (PhD), Convex Optimization (PhD), Probabilistic Graphical Models (PhD), Deep Reinforcement Learning (PhD), Probability & Statistics."
+
+- date: "Aug '18–May '22"
+  degree: "B.Tech (Honors) in Computer Science & Engineering"
+  school: "PES University, Bangalore"
+  bullets:
+    - "Ranked in the top 3% (30/975) of the CS Department."
+    - "Coursework: Linear Algebra, Intro to ML, Topics in Deep Learning, Information Retrieval."
